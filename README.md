@@ -10,14 +10,14 @@
 
 **使用说明：**
 
-1. 获取 Amaze UI Chosen：
+1. 获取 Amaze UI Switch：
 
   - [直接下载](https://github.com/amazeui/switch/archive/master.zip)
   - 使用 NPM: `npm install amazeui-switch`
 
 2. 在 Amaze UI 样式之后引入 Switch 样式：
 
-  Amaze UI Chosen 依赖 Amaze UI 样式。
+  Amaze UI Switch 依赖 Amaze UI 样式。
 
   ```html
   <link rel="stylesheet" href="path/to/amazeui.min.css"/>
@@ -33,14 +33,14 @@
 
 4. 初始化 Switch：
 
-```js
-$(function() {
-  $('[name="my-checkbox"]').bootstrapSwitch();
-});
-```
+  ```js
+  $(function() {
+    $('[name="my-checkbox"]').bootstrapSwitch();
+  });
+  ```
 
-可以监听到 jQuery Ready 事件的 DOM 也可以使用 `data-am-switch` 钩子自动初始化：
+  可以监听到 jQuery Ready 事件的 DOM 也可以使用 `data-am-switch` 钩子自动初始化：
 
-```html
-<input type="checkbox" data-am-switch />
-```
+  ```html
+  <input type="checkbox" data-am-switch />
+  ```
